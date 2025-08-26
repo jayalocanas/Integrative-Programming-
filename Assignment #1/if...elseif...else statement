@@ -1,0 +1,14 @@
+<?php
+$score = 75;
+
+if ($score >= 90) {
+  echo "Excellent!\n";
+} else if ($score >= 80) {
+  echo "Very good!\n";
+} else if ($score >= 70) {
+  echo "Good.\n";
+} else {
+  echo "Needs improvement.\n";
+}
+
+?>
