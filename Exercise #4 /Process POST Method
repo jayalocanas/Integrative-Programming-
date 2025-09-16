@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Process POST</title>
+</head>
+<body>
+    <?php
+        if (isset($_POST['name']) && isset($_POST['age']) && isset($_POST['course'])) {
+            $name = htmlspecialchars($_POST['name']);
+            $age = htmlspecialchars($_POST['age']);
+            $course = htmlspecialchars($_POST['course']); 
+
+            echo "Your name is: " . $name . "<br>";
+            echo "Your age is: " . $age . "<br>";
+            echo "Your course is: " . $course . "<br>";
+        } else {
+            echo "No data received.";
+        }
+    ?>
+</body>
+</html>
