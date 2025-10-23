@@ -1,7 +1,11 @@
 <?php
-$json = file_get_contents('php://input');
+$json = '{"username":"admin",
+"password":"1234"}';
 $data = json_decode($json, true);
-echo "Username: admin" . $data['username'] ; 
+
+echo "Username: " . 
+$data['username'] ; 
 "<br>";
-echo "Password: 1234" . $data['password'];
+echo "
+Password: " . $data['password'];
  ?>
