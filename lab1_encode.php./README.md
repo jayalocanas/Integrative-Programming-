@@ -1,15 +1,13 @@
 <?php
-// Declare an associative array with keys: name, age, and course
-$student = array(
+$myArray = array(
     "name" => "Maria",
     "age" => 21,
     "course" => "IT"
 );
-$jsonString = json_encode($student);
+
+$jsonString = json_encode($myArray);
 echo $jsonString;
 ?>
-
-
 
 
 
