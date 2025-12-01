@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD ORDERING</title>
+    <link rel="icon" type="images/jpg" href="cs.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">CRAVINGS SATISFIED</div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#dishes">DISHES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>CRAVINGS CALLED. WE ANSWERED.</h1>
+            <p>Order Your Delicious meals from the best restaurant in town</p>
+            <a href="#menu" class="cta-button">ORDER NOW!!!</a>
+
+        </div>
+    </section>
+
+    <section class="categories" id="menu">
+        <h2 class="section title">Our Menu Categories</h2>
+        <div class="category-grid">
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="images/borger.jpg" alt="Burger">
+                </div>
+                <div class="category-content">
+                    <h3>Burger</h3>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="images/petsa.jpg" alt="Pizza">
+                </div>
+                <div class="category-content">
+                    <h3>Pizza</h3>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="images/denver.jpg" alt="Nuggets">
+                </div>
+                <div class="category-content">
+                    <h3>Nuggets</h3>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="images/prays.jpg" alt="French Fries">
+                </div>
+                <div class="category-content">
+                    <h3>French Fries</h3>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="images/tsiken.jpg" alt="Fried Chicken">
+                </div>
+                <div class="category-content">
+                    <h3>Fried Chicken</h3>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="images/sisig.jpg" alt="Sizzling Sisig">
+                </div>
+                <div class="category-content">
+                    <h3>Sizzling Sisig</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="dishes" id="dishes">
+        <h2 class="section-title">Popular Dishes</h2>
+        <div class="dishes-grid">
+
+            <div class="dishes-card">
+
+                <div class="dish-image">
+                    <img src="images/borger.jpg" alt="">
+                </div>
+                <div class="dish-content"></div>
+                <h3 class="dish-title">BIG PATTY BURGER</h3>
+                <p>BIG TASTY BURGER PATTY, WITH CARAMELIZED ONION</p>
+                <div class="dish-price">₱299</div>
+                <a href="#" class="order-button">Add to cart</a>
+
+            </div>
+
+            <div class="dishes-card">
+
+                <div class="dish-image">
+                    <img src="images/denver.jpg" alt="">
+                </div>
+                <div class="dish-content"></div>
+                <h3 class="dish-title">TENDER NUGGETS</h3>
+                <p>MVP JOKIC NUGGETS</p>
+                <div class="dish-price">₱199</div>
+                <a href="#" class="order-button">Add to cart</a>
+
+            </div>
+
+            <div class="dishes-card">
+
+                <div class="dish-image">
+                    <img src="images/petsa.jpg" alt="">
+                </div>
+                <div class="dish-content"></div>
+                <h3 class="dish-title">STUFFED CRUST PIZZA</h3>
+                <p>WELL BAKED PIZZA WITH SUPER HOT SAUCE</p>
+                <div class="dish-price">₱599</div>
+                <a href="#" class="order-button">Add to cart</a>
+
+            </div>
+
+            <div class="dishes-card">
+
+                <div class="dish-image">
+                    <img src="images/prays.jpg" alt="">
+                </div>
+                <div class="dish-content"></div>
+                <h3 class="dish-title">BRENT FRIEZ</h3>
+                <p>125pcs OF FRIES FOR YOU</p>
+                <div class="dish-price">₱159</div>
+                <a href="#" class="order-button">Add to cart</a>
+
+            </div>
+
+            <div class="dishes-card">
+
+                <div class="dish-image">
+                    <img src="images/tsiken.jpg" alt="">
+                </div>
+                <div class="dish-content">CHICKI AND JOY</div>
+                <h3 class="dish-title"></h3>
+                <p>SUPER CRISPY CHICKEN JOY</p>
+                <div class="dish-price">₱350</div>
+                <a href="#" class="order-button">Add to cart</a>
+
+            </div>
+
+            <div class="dishes-card">
+
+                <div class="dish-image">
+                    <img src="images/sisig.jpg" alt="">
+                </div>
+                <div class="dish-content"></div>
+                <h3 class="dish-title">SISIGLA KA</h3>
+                <p>SIZZLING SISIG PERFECT FOR PULUTAN AND ULAM</p>
+                <div class="dish-price">₱299</div>
+                <a href="#" class="order-button">Add to cart</a>
+                
+
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section class="contact" id="contact"></section>
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact-form">
+        <form action="">
+
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+
+            </div>
+
+            <div class="form-group">
+                <textarea placeholder="Your Message" required></textarea>
+            </div>
+
+            <button type="submit" class="cta-button">Send Message</button>
+
+        </form>
+
+
+    </div>
+
+    <footer>
+        <p> &copy; 2025 CRAVINGS SATISFIED. All rights reserved</p>
+    </footer>
+
+</body>
